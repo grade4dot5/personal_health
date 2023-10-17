@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"/>
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/home"
+
+
+        android:title="홈"/>
+    <item
+        android:id="@+id/menu2"
+        android:title="일정표"
+        android:icon="@drawable/calendar"/>
+    <item
+        android:id="@+id/menu3"
+        android:title="만보기"
+        android:icon="@drawable/walk"/>
+    <item
+        android:id="@+id/menu4"
+        android:title="타이머"
+        android:icon="@drawable/timer"/>
+</menu>

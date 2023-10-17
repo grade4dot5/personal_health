@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".fragment.fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/dateString"/>
+
+    <TextView
+        android:id="@+id/date_picker_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="날짜"
+        android:outlineAmbientShadowColor="@color/black"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+            <Button
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/date_picker_btn"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="70dp"
+                android:text="날짜 선택"/>
+
+            <Button
+                android:id="@+id/sql"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="80dp"
+                android:text="목표 설정" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="푸쉬업"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:outlineAmbientShadowColor="@color/black"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/pushupcount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:hint="0"
+                android:gravity="center"
+                android:outlineAmbientShadowColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="개"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:outlineAmbientShadowColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="크런치"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:outlineAmbientShadowColor="@color/black"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/crunchcount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:hint="0"
+                android:gravity="center"
+                android:outlineAmbientShadowColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="개"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:outlineAmbientShadowColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="스쿼트"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:outlineAmbientShadowColor="@color/black"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/squartcount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:hint="0"
+                android:gravity="center"
+                android:outlineAmbientShadowColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="개"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:outlineAmbientShadowColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

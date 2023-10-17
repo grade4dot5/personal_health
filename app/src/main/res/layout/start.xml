@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".start"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="OnClickHandler"
+        android:src="@drawable/start"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시작할려면 화면을 터치해주세요"
+        android:textSize="20dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+
+
+</FrameLayout>
